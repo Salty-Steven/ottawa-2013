@@ -1,0 +1,26 @@
+# Local secret generators and compilers — NEVER commit these files!
+setup_act1_secrets.py
+setup_act2_secrets.py
+setup_act3_secrets.py
+
+# Dynamically emitted stage scripts & runtime progression artifacts
+gsm_pdu_spec.py
+send_sms.py
+lobby_strangers.py
+act1_checkpoint.json
+route_to_mario.py
+charge_phone.py
+battery_state.bin
+reconnect_steve.py
+act2_checkpoint.json
+mario_sleeping.py
+act3_checkpoint.json
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.DS_Store
